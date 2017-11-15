@@ -46,7 +46,7 @@ class ViewController: UIViewController {
     }
     
     func updateUI() {
-        correctWordLabel.text = game.formattedWord
+        correctWordLabel.text = currentGame.formattedWord
 
         scoreLabel.text = "Wins: \(totalWins), Losses: \(totalLoses)"
 
