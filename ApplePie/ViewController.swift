@@ -49,6 +49,9 @@ class ViewController: UIViewController {
 
     @IBAction func buttonTapped(_ sender: UIButton) {
         sender.isEnabled = false
+
+        let letterString = sender.title(for: .normal)!
+        let letter = Character(letterString.lowercased())
     }
     
     override func didReceiveMemoryWarning() {
