@@ -38,13 +38,18 @@ class ViewController: UIViewController {
     func newRound() {
         let newWord = listOfWords.removeFirst()
         
-        currentGame = Game(word: newWord, incorrectMovesRemaining: incorrectMovesAllowed)
+        currentGame = Game(word: newWord,
+            incorrectMovesRemaining: incorrectMovesAllowed,
+            guessedLetters: [])
+
         updateUI()
     }
     
     func updateUI() {
         scoreLabel.text = "Wins: \(totalWins), Losses: \(totalLoses)"
-        treeImageView.image = UIImage(named: "Tree \(currentGame.incorrectMovesRemaining)")
+
+        treeImageView.image = UIImage(
+            named: "Tree \(currentGame.incorrectMovesRemaining)")
     }
 
     @IBAction func buttonTapped(_ sender: UIButton) {
