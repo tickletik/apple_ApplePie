@@ -192,6 +192,32 @@
                         <outlet property="correctWordLabel" destination="uIY-AN-EnN" id="LX1-8G-6ck"/>
                         <outlet property="scoreLabel" destination="UlB-Xd-FqR" id="3mj-Cx-4bF"/>
                         <outlet property="treeImageView" destination="pCO-dC-dof" id="c2w-CT-CRu"/>
+                        <outletCollection property="letterButtons" destination="qmo-Es-ZhH" collectionClass="NSMutableArray" id="0tS-xk-3HH"/>
+                        <outletCollection property="letterButtons" destination="2Q7-6H-KSX" collectionClass="NSMutableArray" id="UaR-eP-yTe"/>
+                        <outletCollection property="letterButtons" destination="ySe-Ix-t5E" collectionClass="NSMutableArray" id="4rG-Uo-oFd"/>
+                        <outletCollection property="letterButtons" destination="THd-bz-usT" collectionClass="NSMutableArray" id="dbL-RQ-ynL"/>
+                        <outletCollection property="letterButtons" destination="qiw-NG-WQH" collectionClass="NSMutableArray" id="vmb-rF-7rv"/>
+                        <outletCollection property="letterButtons" destination="P42-49-GJf" collectionClass="NSMutableArray" id="uHc-5f-AOz"/>
+                        <outletCollection property="letterButtons" destination="6eV-48-WGC" collectionClass="NSMutableArray" id="ILU-eB-tFq"/>
+                        <outletCollection property="letterButtons" destination="0lN-AC-XGp" collectionClass="NSMutableArray" id="Tso-AK-ATE"/>
+                        <outletCollection property="letterButtons" destination="8IX-Ep-ncC" collectionClass="NSMutableArray" id="Lk2-P7-eAF"/>
+                        <outletCollection property="letterButtons" destination="viF-mi-Wl5" collectionClass="NSMutableArray" id="xBf-TR-pAT"/>
+                        <outletCollection property="letterButtons" destination="LFH-0r-n9Z" collectionClass="NSMutableArray" id="LH8-Hr-TEp"/>
+                        <outletCollection property="letterButtons" destination="Qpq-ce-Eg4" collectionClass="NSMutableArray" id="5hv-zP-eiX"/>
+                        <outletCollection property="letterButtons" destination="wtr-7j-BbU" collectionClass="NSMutableArray" id="Xk4-gZ-5vI"/>
+                        <outletCollection property="letterButtons" destination="ffu-0C-3Gl" collectionClass="NSMutableArray" id="jYh-z3-lvg"/>
+                        <outletCollection property="letterButtons" destination="vB2-Bg-k24" collectionClass="NSMutableArray" id="ErR-Ia-fma"/>
+                        <outletCollection property="letterButtons" destination="kJw-ym-I2e" collectionClass="NSMutableArray" id="agB-op-Hu3"/>
+                        <outletCollection property="letterButtons" destination="dV5-Vg-PEv" collectionClass="NSMutableArray" id="Fh3-Jc-ugb"/>
+                        <outletCollection property="letterButtons" destination="Sa6-Wv-NaY" collectionClass="NSMutableArray" id="AbW-GP-Mv2"/>
+                        <outletCollection property="letterButtons" destination="rNa-6Z-nSL" collectionClass="NSMutableArray" id="T2c-OJ-1fu"/>
+                        <outletCollection property="letterButtons" destination="sH7-BP-GbS" collectionClass="NSMutableArray" id="f6X-xS-XRY"/>
+                        <outletCollection property="letterButtons" destination="f9b-xe-flb" collectionClass="NSMutableArray" id="CUM-je-doA"/>
+                        <outletCollection property="letterButtons" destination="2fg-ux-523" collectionClass="NSMutableArray" id="v0r-LK-u5l"/>
+                        <outletCollection property="letterButtons" destination="CQa-ic-6Cc" collectionClass="NSMutableArray" id="s1H-1Y-gky"/>
+                        <outletCollection property="letterButtons" destination="MdM-65-ouq" collectionClass="NSMutableArray" id="iqw-L7-UoU"/>
+                        <outletCollection property="letterButtons" destination="Xwo-d6-HyN" collectionClass="NSMutableArray" id="mmO-iN-gwM"/>
+                        <outletCollection property="letterButtons" destination="m06-PV-fb0" collectionClass="NSMutableArray" id="qzC-LH-R6g"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
