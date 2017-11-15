@@ -79,7 +79,13 @@ class ViewController: UIViewController {
     }
     
     func updateGameState() {
-        updateUI()
+        if currentGame.incorrectMovesRemaining == 0 {
+            totalLoses += 1
+        } else if currentGame.word == currentGame.formattedWord {
+            totalWins += 1
+        } else {
+            updateUI()
+        }
     }
     
     override func didReceiveMemoryWarning() {
