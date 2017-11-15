@@ -17,10 +17,24 @@ class ViewController: UIViewController {
 
     @IBOutlet var letterButtons: [UIButton]!
     
+    var listOfWords: [String]!
+    
+    let incorrectMovesAllowed = 7
+    
+    var totalWins:Int = 0
+    var totalLoses:Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        listOfWords = ["horse", "cow", "aardvark", "safari", "girls", "sluts", "women"]
+        
+        newRound()
+    }
+
+    func newRound() {
+        
     }
 
     @IBAction func buttonTapped(_ sender: UIButton) {
