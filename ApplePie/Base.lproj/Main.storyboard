@@ -189,6 +189,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="correctWordLabel" destination="uIY-AN-EnN" id="LX1-8G-6ck"/>
+                        <outlet property="scoreLabel" destination="UlB-Xd-FqR" id="3mj-Cx-4bF"/>
                         <outlet property="treeImageView" destination="pCO-dC-dof" id="c2w-CT-CRu"/>
                     </connections>
                 </viewController>

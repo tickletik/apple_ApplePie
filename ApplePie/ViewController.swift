@@ -16,7 +16,10 @@ class ViewController: UIViewController {
     }
 
     @IBOutlet weak var treeImageView: UIImageView!
+    @IBOutlet weak var correctWordLabel: UILabel!
+    @IBOutlet weak var scoreLabel: UILabel!
     
+    @IBOutlet var letterButtons: [UIButton]!
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
