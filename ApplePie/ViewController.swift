@@ -75,6 +75,10 @@ class ViewController: UIViewController {
 
         currentGame.playerGuessed(letter: letter)
 
+        updateGameState()
+    }
+    
+    func updateGameState() {
         updateUI()
     }
     
