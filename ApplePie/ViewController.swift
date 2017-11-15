@@ -24,6 +24,8 @@ class ViewController: UIViewController {
     var totalWins:Int = 0
     var totalLoses:Int = 0
     
+    var currentGame: Game!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -34,6 +36,9 @@ class ViewController: UIViewController {
     }
 
     func newRound() {
+        let newWord = listOfWords.removeFirst()
+        
+        currentGame = Game(word: newWord, incorrectMovesRemaining: incorrectMovesAllowed)
         
     }
 
