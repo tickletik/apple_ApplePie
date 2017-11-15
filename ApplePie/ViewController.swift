@@ -46,7 +46,20 @@ class ViewController: UIViewController {
     }
     
     func updateUI() {
-        correctWordLabel.text = currentGame.formattedWord
+
+        /* 
+            get the formatted word convert it to 
+            an array and then reconcatenate the array
+            into a string with spaces for a separater
+        */
+        
+        var letters = [String]()
+        for letter in currentGame.formattedWord {
+            letters.append(String(letter))
+        }
+
+        let wordWithSpacing = letters.joined(separator: " ")
+        correctWordLabel.text = wordWithSpacing
 
         scoreLabel.text = "Wins: \(totalWins), Losses: \(totalLoses)"
 
